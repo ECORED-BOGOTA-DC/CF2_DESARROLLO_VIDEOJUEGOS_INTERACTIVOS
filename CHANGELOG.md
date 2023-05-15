@@ -2,6 +2,125 @@
 
 Estos son los cambios hechos en la ECORED-BASE-2021
 
+## 5.1.0 - 01-12-2021
+
+### Agregado
+
+- Sintesis
+
+### Arreglado
+
+- Componente SlyderF en algunos casos los botones no funcionaban como se esperaba
+
+#
+
+## 5.0.1 - 09-11-2021
+
+### Arreglado
+
+- Componente SlyderF aveces no llegaba al último elemento
+- Componente Zoom hace zoom cuando se hacía scroll por la pagina, ahora solo hay que hacer click a la imágen para que se pueda hacer zoom
+- Vista Material complementario enlaces de descargas no funcionaban cuando era uno solo
+
+#
+
+## 5.0.0 - 29-10-2021
+
+### Agregado
+
+- Componente tarjeta-avatar-slide
+- Componente Tarjeta-slide
+- Componente lineaTiempoE
+- Componente SlyderF
+- Componente Zomm
+
+### Arreglado
+
+- Agregar numero a la imagen infografiaca e infografiaca-B (numero="1")
+- los botones del slyderA y slyderA quedan abajo (tipo="b")
+- titulo-principal y titulo-segundo de colores
+- acordiones agregar clase para estado activo (acordion__activo)
+- espacio para el icono del link de las referencias bibliograficas
+- deshabilitar descargable en local
+- SlyderB, SlyderC, SlyderD quitar titulo cuando no se ponga la llave
+- ponerle min-width a los creditos para moviles
+- material complementario recibe mas de un link o descarga
+- referencias bibliograficas y glosario se ordena incluso con tags html
+
+#
+
+## 4.2.0 - 21-09-2021
+
+### Agregado
+
+- Componente ImagenInfograficaB
+- Componente tarjeta-flip
+
+### Arreglado
+
+- Los titulos y todos los props que van dentro de las vistas soportan html
+  - AcordionA
+  - LineaTiempoA
+  - LineaTiempoB
+  - LineaTiempoC
+  - LineaTiempoD
+  - PasosB
+  - SlyderB
+  - SlyderC
+  - SlyderD
+  - TabsA
+  - TabsB
+  - TabsC
+
+#
+
+## 4.1.1 - 26-08-2021
+
+### Agregado
+
+- Glosario ahora recibe HTML a través de la llave terminoHtml (debe tener ambas llaves termino y terminoHtml para que funcione)
+
+### Arreglado
+
+- Doble slash (//) en enlaces dentro de la plantilla
+
+#
+
+## 4.1.0 - 26-07-2021
+
+### Cambios
+
+- /package.json
+- /src/components/Muestras.vue
+
+### Agregado
+
+- Componente SlyderE
+- Componente cajon-b
+- En el componente 'linea-tiempo-c' la opcion de hacer los titulos mas pequenos
+
+### Arreglado
+
+- En el componente 'linea-tiempo-c' el problema generado por la cantidad de texto en el titulo
+- En el componente 'bloque-texto-e' el nombre de la clase 'bloque-texto-e__text' cambio a 'bloque-texto-e__texto' para mejor consistencia
+- En el componente 'tarjeta-avatar-b' ahora la imagen va a estar dentro de '.tarjeta-avatar-b__img" para arreglar el responsive del componente
+- Los textos dentro de estos componentes ahora se pueden utilizar como html
+  - menu principal
+  - banner interno
+  - banner principal
+  - header
+  - material complementario
+  - inicio
+  - referencias bibliograficas
+- En el componente 'pasos' el problema con los circulos en responsive
+- En los componentes de texto destacado, los problemas de alineacion de las comillas
+
+### Potenciales problemas con versiones anteriores
+
+- en el componente 'tarjeta-avatar-b', la imagen solo necesita estar dentro de: .tarjeta-avatar-b__img
+
+#
+
 ## 4.0.0 - 26-06-2021
 
 ### Cambios
@@ -28,6 +147,8 @@ Estos son los cambios hechos en la ECORED-BASE-2021
 - arreglo de overflow-x en el contenedor de tema
 - la versión 5.0.2 de bootstrap tiene un problema con la grilla
 - el orden del glosario no toma en cuenta mayúsculas
+
+#
 
 ## 3.3.0 - 14-06-2021
 
@@ -61,6 +182,8 @@ Estos son los cambios hechos en la ECORED-BASE-2021
 - Unificación de pie de imagen y pie de tabla
 - Mejor contraste en el encabezado de la tabla de material complementario
 - Tamaño de titulo de .tabla-b
+
+#
 
 ## 3.2.0 - 02-06-2021
 

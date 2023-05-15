@@ -3,8 +3,8 @@ export default {
     componenteFormativo: 'Arte conceptual y diseño 3D',
     descripcionCurso:
       'Se explican conceptos básicos del diseño, desarrollo de personajes, conocimientos del color, modelado en 3D y texturizado.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },
   menuPrincipal: {
     menu: [
@@ -15,7 +15,7 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-info',
+        icono: 'fas fa-info-circle',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
@@ -62,7 +62,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Blueprint',
+        titulo: '<em>Blueprint</em>',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -106,6 +106,18 @@ export default {
     ],
     subMenu: [
       {
+        icono: 'fas fa-sitemap',
+        titulo: 'Síntesis',
+        nombreRuta: 'sintesis',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
+      {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
@@ -132,39 +144,52 @@ export default {
       },
     ],
   },
-  referencias: [
+  complementario: [
     {
-      referencia:
-        'Blender. (s.f.). Introducing: SCULPT EXPAND | Blender development preview [video]. YouTube.  ',
-      link: 'https://www.youtube.com/watch?v=XT7h6lmE5bc&ab_channel=Blender',
-    },
-    {
-      referencia:
-        'Blendtuts-ES. (2019). HDRIs y materiales PBR (introducción a Blender 2.80 #35) [video]. YouTube.  ',
-      link: 'https://www.youtube.com/watch?v=twkX4Hwl8AA&t=452',
-    },
-    {
-      referencia:
-        'Blendtuts-ES. (2019). Shading básico (materiales) (introducción a Blender 2.80 #31) [video]. YouTube.  ',
-      link: 'https://www.youtube.com/watch?v=_HlV4DUjnDY',
-    },
-    {
-      referencia: 'Paletton. (2021). The color scheme designer. ',
+      tema: 'Diseño de personajes',
+      referencia: 'Paletton. (2021). <em>The color scheme designer</em>.',
+      tipo: 'Página web',
       link: 'https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF',
     },
     {
+      tema: 'Diseño de personajes',
       referencia:
-        'Powerhouse Animation Studios. (2017). PHA ProTip - Character design [video]. YouTube.  ',
+        'Powerhouse Animation Studios. (2017). <em>PHA ProTip - Character design</em>.',
+      tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=MUZHfnlKggI&t=256s&ab_channel=PowerhouseAnimationStudios',
     },
     {
-      referencia: 'SENA. (2021). Modelado prop daga. SENA.',
+      tema: 'Diseño de personajes',
+      referencia:
+        'Blendtuts-ES. (2019). <em>Shading básico (materiales) (introducción a Blender 2.80 #31)</em>.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=_HlV4DUjnDY',
+    },
+    {
+      tema: 'Materiales y texturizado',
+      referencia:
+        'Blendtuts-ES. (2019). <em>HDRIs y materiales PBR (introducción a Blender 2.80 #35)</em>.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=twkX4Hwl8AA&t=452s',
+    },
+    {
+      tema: 'Materiales y texturizado',
+      referencia:
+        'Blender. (s.f.). <em>Introducing: SCULPT EXPAND | Blender development preview</em>.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=XT7h6lmE5bc&ab_channel=Blender',
+    },
+    {
+      tema: 'Ejercicios prácticos modelado',
+      referencia: 'SENA. (2021). <em>Modelado prop daga. SENA</em>.',
+      tipo: 'PDF',
+      link: '',
     },
   ],
   glosario: [
     {
-      termino: '¾',
+      termino: 'Tres cuertos',
       significado:
         'Es la vista en la que se observa un elemento, por ejemplo, un rostro visto de frente girando hacia su derecha o izquierda, por lo que se alcanza a notar más parte de un lado que del otro.',
     },
@@ -198,7 +223,7 @@ export default {
         'Carecen de las condiciones para que funcione con cualquier elemento.',
     },
     {
-      termino: 'Loops',
+      termino: '<em>Loops</em>',
       significado:
         'Se refiere a las repeticiones que se pueden dar de un mismo elemento animado, por ejemplo, un hámster corriendo en una jaula.',
     },
@@ -213,173 +238,245 @@ export default {
         'Es la forma como cada sujeto entiende cualquier tipo de información, sea visual, auditiva o táctil, dándole un significado propio.',
     },
   ],
-  complementario: [
+  referencias: [
     {
-      texto: 'Paletton. (2021). The color scheme designer.',
-      tipo: 'Página web',
-      link: 'https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF',
+      referencia:
+        'Blender. (s.f.). Introducing: SCULPT EXPAND | Blender development preview [video]. YouTube.  ',
+      link: 'https://www.youtube.com/watch?v=XT7h6lmE5bc&ab_channel=Blender',
     },
     {
-      texto:
-        'Powerhouse Animation Studios. (2017). PHA ProTip - Character design [video]. YouTube.',
-      tipo: 'Video',
-      link:
-        'https://www.youtube.com/watch?v=MUZHfnlKggI&t=256s&ab_channel=PowerhouseAnimationStudios ',
+      referencia:
+        'Blendtuts-ES. (2019). HDRIs y materiales PBR (introducción a Blender 2.80 #35) [video]. YouTube.  ',
+      link: 'https://www.youtube.com/watch?v=twkX4Hwl8AA&t=452',
     },
     {
-      texto:
-        'Blendtuts-ES. (2019). Shading básico (materiales) (introducción a Blender 2.80 #31) [video]. YouTube.',
-      tipo: 'Video',
+      referencia:
+        'Blendtuts-ES. (2019). Shading básico (materiales) (introducción a Blender 2.80 #31) [video]. YouTube.  ',
       link: 'https://www.youtube.com/watch?v=_HlV4DUjnDY',
     },
     {
-      texto:
-        'Blendtuts-ES. (2019). HDRIs y materiales PBR (introducción a Blender 2.80 #35) [video]. YouTube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=twkX4Hwl8AA&t=452s ',
+      referencia: 'Paletton. (2021). The color scheme designer. ',
+      link: 'https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF',
     },
     {
-      texto:
-        'Blender. (s.f.). Introducing: SCULPT EXPAND | Blender development preview [video]. YouTube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=XT7h6lmE5bc&ab_channel=Blender ',
+      referencia:
+        'Powerhouse Animation Studios. (2017). PHA ProTip - Character design [video]. YouTube.  ',
+      link:
+        'https://www.youtube.com/watch?v=MUZHfnlKggI&t=256s&ab_channel=PowerhouseAnimationStudios',
+    },
+    {
+      referencia: 'SENA. (2021). Modelado prop daga. SENA.',
     },
   ],
-  creditos: {
-    liderEquipo: [
-      {
-        nombre: 'Maria Camila Garcia Santamaria',
-        cargo: 'Líder del equipo',
-        centro: 'Dirección General',
-      },
-    ],
-    contenidoInstruccional: [
-      {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Fabián Andrés Gómez Pico ',
-        cargo: 'Experto Temático 3D',
-        centro:
-          'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
-      },
-      {
-        nombre: 'Johnier Felipe Perafán Ledezma',
-        cargo: 'Experto Temático 3D',
-        centro:
-          'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
-      },
-      {
-        nombre: 'Oscar Andrés Martín Moreno',
-        cargo: 'Experto temático',
-        centro:
-          'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
-      },
-      {
-        nombre: 'John Alexander García Ángel',
-        cargo: 'Experto temático',
-        centro:
-          'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
-      },
-      {
-        nombre: 'Paula Andrea Taborda Ortiz',
-        cargo: 'Diseñadora instruccional',
-        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
-      },
-      {
-        nombre: 'Oscar Absalón Guevara',
-        cargo: 'Evaluador instruccional',
-        centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
-      },
-      {
-        nombre: 'Julia Isabel Roberto',
-        cargo: 'Diseñadora y evaluadora instruccional',
-        centro:
-          'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica',
-      },
-    ],
-    desarrolloProducto: [
-      {
-        nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable equipo',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'María Natalia Maldonado Delgado',
-        cargo: 'Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Zuleidy Maria Ruiz Torres',
-        cargo: 'Producción audiovisual',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Wilson Andrés Arenales Cáceres',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Gilberto Junior Rodríguez Rodríguez',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Ángela María Maldonado Jaime',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'María Carolina Tamayo López',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Carmen Alicia Martínez Torres',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Ricardo Vásquez Arroyave',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Edgar Mauricio Cortes García',
-        cargo: 'Desarrollo front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Yenny Patricia Ulloa Villamizar',
-        cargo: 'Validación de diseño y contenido',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-    ],
-    gestoresRepositorio: [
-      {
-        nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-    ],
+  creditos: [
+    {
+      titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Claudia Patrica Aristizabal Gutiérrez',
+          cargo: 'Líder ecosistema de recursos educativos digitales (RED)',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Liliana Victoria Morales Gualdron',
+          cargo: 'Responsable de línea de producción',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+      ],
+    },
+    {
+      titulo: 'CONTENIDO INSTRUCCIONAL',
+      autores: [
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor metodológico y pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Fabián Andrés Gómez Pico ',
+          cargo: 'Experto Temático 3D',
+          centro:
+            'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
+        },
+        {
+          nombre: 'Johnier Felipe Perafán Ledezma',
+          cargo: 'Experto Temático 3D',
+          centro:
+            'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
+        },
+        {
+          nombre: 'Oscar Andrés Martín Moreno',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
+        },
+        {
+          nombre: 'John Alexander García Ángel',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
+        },
+        {
+          nombre: 'Paula Andrea Taborda Ortiz',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Oscar Absalón Guevara',
+          cargo: 'Evaluador instruccional',
+          centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Julia Isabel Roberto',
+          cargo: 'Diseñadora y evaluadora instruccional',
+          centro:
+            'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica',
+        },
+        {
+          nombre: 'Gloria Amparo Lopez Escudero',
+          cargo: 'Adecuador Instruccional - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Andres Felipe Velandia Espitia',
+          cargo: 'Metodólogo para la Formación Virtual - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+      ],
+    },
+    {
+      titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Francisco José Lizcano Reyes',
+          cargo: 'Responsable equipo',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Leyson Fabian Castaño Perez',
+          cargo: 'Soporte organizacional',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'María Natalia Maldonado Delgado',
+          cargo: 'Diseño web',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Yuly Andrea Rey Quiñonez',
+          cargo: 'Diseñador de contenidos digitales - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Zuleidy Maria Ruiz Torres',
+          cargo: 'Producción audiovisual',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Animador y productor multimedia - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Laura Gisselle Murcia Pardo',
+          cargo: 'Animador y productor multimedia - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Ángela María Maldonado Jaime',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'María Carolina Tamayo López',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Carmen Alicia Martínez Torres',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Ricardo Vásquez Arroyave',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Edgar Mauricio Cortes García',
+          cargo: 'Desarrollo front-end',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Jhon Jairo Urueta Alvarez',
+          cargo: 'Desarrollador full-stack - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+      ],
+    },
+    {
+      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
+      autores: [
+        {
+          nombre: 'Yenny Patricia Ulloa Villamizar',
+          cargo: 'Validación de diseño y contenido',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Laura Gisselle Murcia Pardo',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Lina Marcela Perez Manchego',
+          cargo: 'Validador de recursos digitales - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Leyson Fabián Castaño Pérez',
+          cargo: 'Validador de recursos digitales - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+      ],
+    },
+  ],
+  creditosAdicionales: {
+    imagenes:
+      'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
+    creativeCommons:
+      'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
   // creditosInicio: [
   //   {
