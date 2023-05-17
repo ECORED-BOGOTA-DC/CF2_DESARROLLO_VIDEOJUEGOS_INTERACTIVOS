@@ -184,7 +184,7 @@ export default {
       tema: 'Ejercicios prácticos modelado',
       referencia: 'SENA. (2021). <em>Modelado prop daga. SENA</em>.',
       tipo: 'PDF',
-      link: '',
+      descarga: '/downloads/anexo1.pdf',
     },
   ],
   glosario: [
