@@ -109,13 +109,13 @@
                 figure(style="position:relative; top:-30px")
                   img(src='@/assets/curso/tema1/img10.png')  
                 p Kirby se puede asociar con una personalidad tierna, inocente, activa y positiva, es decir, con características relacionadas con los temas emocionales del círculo.
-                p Referencia de la imágene: https://kirby.fandom.com /es/wiki/
+                p Referencia de la imágen: https://kirby.fandom.com /es/wiki/
             .col-lg-6.d-flex.py-5
               div.px-4(style="background-color:#DDDCE9")
                 figure(style="position:relative; top:-30px")
                   img(src='@/assets/curso/tema1/img11.png')  
                 p Dark Mind está claramente relacionado con temas emocionales del triángulo como la agresividad, fuerza, tensión e inestabilidad.
-                p Referencia de la imágene: https://kirby.fandom.com /es/wiki/
+                p Referencia de la imágen: https://kirby.fandom.com /es/wiki/
           p Con el diseño de Kirby y Dark Mind se observa que las emociones relacionadas a cada espectro de forma son de gran utilidad a la hora de diseñar y perfilar las características de un personaje, ya sean positivas, negativas o incluso neutras, brindándole una identidad única que lo diferencia de los demás, marcando el concepto visual de un objeto que puede aplicarse a todos los elementos del videojuego para conservar un mismo estilo.       
         .col-lg-1
       .row(titulo="Tamaño")
