@@ -109,11 +109,13 @@
                 figure(style="position:relative; top:-30px")
                   img(src='@/assets/curso/tema1/img10.png')  
                 p Kirby se puede asociar con una personalidad tierna, inocente, activa y positiva, es decir, con características relacionadas con los temas emocionales del círculo.
+                p Referencia de la imágene: https://kirby.fandom.com /es/wiki/
             .col-lg-6.d-flex.py-5
               div.px-4(style="background-color:#DDDCE9")
                 figure(style="position:relative; top:-30px")
                   img(src='@/assets/curso/tema1/img11.png')  
                 p Dark Mind está claramente relacionado con temas emocionales del triángulo como la agresividad, fuerza, tensión e inestabilidad.
+                p Referencia de la imágene: https://kirby.fandom.com /es/wiki/
           p Con el diseño de Kirby y Dark Mind se observa que las emociones relacionadas a cada espectro de forma son de gran utilidad a la hora de diseñar y perfilar las características de un personaje, ya sean positivas, negativas o incluso neutras, brindándole una identidad única que lo diferencia de los demás, marcando el concepto visual de un objeto que puede aplicarse a todos los elementos del videojuego para conservar un mismo estilo.       
         .col-lg-1
       .row(titulo="Tamaño")
@@ -145,7 +147,8 @@
           figure
             img(src='@/assets/curso/tema1/img09.png') 
         .col-lg-5.px-4
-          p.mb-0 Al igual que los personajes individuales, los grandes grupos suelen diseñarse de manera similar, compartiendo cualidades estéticas para conservar el mismo estilo. Esto se hace especialmente en los juegos de estrategia como por ejemplo, en el juego #[i Lords Mobile], donde se le permite al jugador adaptar su ejército consistente con personajes homogéneos, es decir, de la misma clase o tipo, en formaciones circulares enfocadas principalmente a la defensa desde todos los flancos; cuadrada que se presenta como una formación densa y rígida; y formaciones tipo flecha o cuña más agresivas, orientadas a romper las líneas del frente enemigo.
+          p Al igual que los personajes individuales, los grandes grupos suelen diseñarse de manera similar, compartiendo cualidades estéticas para conservar el mismo estilo. Esto se hace especialmente en los juegos de estrategia como por ejemplo, en el juego #[i Lords Mobile], donde se le permite al jugador adaptar su ejército consistente con personajes homogéneos, es decir, de la misma clase o tipo, en formaciones circulares enfocadas principalmente a la defensa desde todos los flancos; cuadrada que se presenta como una formación densa y rígida; y formaciones tipo flecha o cuña más agresivas, orientadas a romper las líneas del frente enemigo.
+          p Referencia de la imágene: https://www.9apps.com/es/ android-games/Lords-Mobile/#gallery-1
         .col-lg-1
       .row(titulo="Conceptos de siluetas sencillas para personajes intrincados")
         .col-lg-1
@@ -178,7 +181,9 @@
     .row.mb-5(data-aos="fade-down")
       .col-lg-1
       .col-lg-10.p-5(style="background-color:#D6F3F9")
-        p.BorTit <b>Figura 1</b>. Personajes de acción
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 <b>Figura 1</b>
+          p.mb-0 Personajes de acción
         figure
           img(src='@/assets/curso/tema1/img19.png')
           figcaption Tomado de: https://www.notodoanimacion.es/principios-del-diseno-de-personajes/
@@ -353,11 +358,13 @@
         .row.justify-content-center(titulo="<em>Props</em> para juego medieval")
           .col-10
             figure
-              img(src='@/assets/curso/tema1/img32.png')             
+              img(src='@/assets/curso/tema1/img32.png')
+              figcaption Referencia de la imágen: https://co.pinterest.com/ pin/331155378840196274/
         .row.justify-content-center(titulo="<em>Props The legend of Zelda</em>")
           .col-10
             figure.mb-3
-              img(src='@/assets/curso/tema1/img31.png') 
+              img(src='@/assets/curso/tema1/img31.png')
+              figcaption Referencia de la imágen: https://co.pinterest.com/ pin/411375747217571766/
             p <b><i>Props</i> videojuego</b> <i>The legend of Zelda: breath of the wild.</i> 
         .row.justify-content-center(titulo="Flynn y la espada")
           .col-10
@@ -372,7 +379,7 @@
       .col-lg-5
         p Los escenarios son los que generan los niveles del videojuego, por ende, tienen un proceso creativo en el que se realizan los bocetos, que luego pasan a perfeccionarse y a crearse visuales detalladas, que a su vez una vez listas pasan a modelarse y posteriormente a integrarse en el motor de videojuegos nivel a nivel. Es un trabajo denso, puesto que los escenarios se componen de muchos elementos, entre ellos se debe tener en cuenta el tipo de iluminación y perspectiva.
     p.mb-5(data-aos="fade-right") Los escenarios, por ende, abarcan todos los elementos visuales que contiene un nivel, a continuación, se podrá conocer algunos de estos escenarios.
-    SlyderB.m-1(:datos="datosSlyder2")
+    SlyderB(:datos="datosSlyder2")
 
 </template>
 
@@ -384,6 +391,8 @@ export default {
       {
         titulo: 'Escenario <em>Super Mario 3D World</em>',
         imagen: require('@/assets/curso/tema1/img34.png'),
+        leyendaImagen:
+          'Referencia de la imágen: http://www.gamedynamo.es/article/ cheats/7091/3447/es/nintendo_wii _u/super_mario_3d_world',
       },
       {
         titulo: 'Puente de primer escenario',
@@ -394,6 +403,8 @@ export default {
       {
         titulo: 'Arte conceptual escenario <em>The last of us</em>',
         imagen: require('@/assets/curso/tema1/img36.png'),
+        leyendaImagen:
+          'Referencia de la imágen: https://www.borntoplay.es/en/ arte-conceptual-de-the-last-of-us/',
       },
     ],
     datosSlyder: [
