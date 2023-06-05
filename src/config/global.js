@@ -342,13 +342,13 @@ export default {
         },
         {
           nombre: 'Gloria Amparo López Escudero',
-          cargo: 'Adecuador Instruccional - 2023',
+          cargo: 'Adecuadora instruccional - 2023',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Andrés Felipe Velandia Espitia',
-          cargo: 'Metodólogo para la Formación Virtual - 2023',
+          cargo: 'Metodólogo para la formación virtual - 2023',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
@@ -447,13 +447,13 @@ export default {
         },
         {
           nombre: 'Carolina Coca Salazar',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles - 2023',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles - 2023',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Lina Marcela Pérez Manchego',
-          cargo: 'Validador de recursos digitales - 2023',
+          cargo: 'Validadora de recursos digitales - 2023',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
