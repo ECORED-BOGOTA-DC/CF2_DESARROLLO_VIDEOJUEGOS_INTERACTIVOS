@@ -23,7 +23,6 @@
               img(src='@/assets/curso/tema3/img03.png')
               figcaption.mt-3 Referencia de la imágen https://www.pexels.com/es-es/foto/ hoja-de-metal-con-gota-de-patron-5676470/
           .col-lg-6
-            h4 Texturas artificiales
             p Son objetos diseñados por el hombre, como una lata metálica, una baldosa, una llanta, una tela, un tejido, entre otros.
           .col-lg-1
       .tarjeta.color-acento-contenido--borde.p-4.p-lg-5(titulo="Texturas naturales")
@@ -33,7 +32,6 @@
               img(src='@/assets/curso/tema3/img02.png')
               figcaption.mt-3 Referencias de las imágenes: Hoja: https://www.pexels.com/es-es/ foto/hoja-verde-2178028/ Tronco: https://polyhaven.com/ a/bark_brown_02
           .col-lg-6
-            h4 Texturas naturales
             p Hacen parte de la misma naturaleza, como hojas, troncos, rocas, entre otras.
           .col-lg-1
       .tarjeta.color-acento-contenido--borde.p-4.p-lg-5(titulo="Texturas orgánicas")
@@ -43,7 +41,6 @@
               img(src='@/assets/curso/tema3/img04.png')
               figcaption.mt-3 Referencia de la imágen Tronco: https://polyhaven.com/ a/bark_brown_02
           .col-lg-6
-            h4 Texturas orgánicas
             p Tienen elementos que también se repiten de manera constante, pero tienen variación en sus formas. 
           .col-lg-1
       .tarjeta.color-acento-contenido--borde.p-4.p-lg-5(titulo="Texturas geométricas")
@@ -53,7 +50,6 @@
               img(src='@/assets/curso/tema3/img05.png')
               figcaption.mt-3 Referencia de la imágen https://dl.polyhaven.com/file/ ph-assets/Textures/jpg/1k/ blue_floor_tiles_01/blue_floor _tiles_01_diff_1k.jpg
           .col-lg-6
-            h4 Texturas geométricas
             p Las texturas tienen patrones geométricos que se repiten constantemente con formas básicas.
           .col-lg-1
       .tarjeta.color-acento-contenido--borde.p-4.p-lg-5(titulo="Texturas gráficas")
@@ -63,7 +59,6 @@
               img(src='@/assets/curso/tema3/img06.png')
               figcaption.mt-3 Referencia de la imágen https://polyhaven.com/a/ side_table_01
           .col-lg-6
-            h4 Texturas gráficas
             p.mb-4 Se pueden capturar a través de una cámara fotográfica, un escáner, o recrearlos en papel a través de pintura u otros elementos, que posteriormente pueden ser capturados para ser digitalizados. Otra forma es una representación virtual del mundo real, realizada a través de #[i software] 2D o 3D, en la que se simulan formas geométricas, orgánicas, naturales y artificiales, con la finalidad de aplicar estas texturas en diferentes elementos, como personajes, escenarios, props, entre otros, dotándolos de mayor credibilidad y acercamiento al mundo real. 
             p Estas texturas también facilitan los acabados de los objetos, ya que estas imágenes pueden repetirse infinitamente, por ejemplo, si se le quiere dar textura de tela (jean) a un pantalón, con un patrón repetitivo o una textura tipo madera se puede lograr el efecto, gracias a estas texturas.
           .col-lg-1

@@ -20,7 +20,6 @@
             figure
               img(src='@/assets/curso/tema1/img03.svg' style="width: 250px").m-auto
           .col-lg-6
-            h4 Formas básicas: triángulo, círculo, cuadrado.
             p.mb-0 Gracias a estas formas primarias y combinándolas entre sí, se pueden crear elementos con mayor complejidad.
           .col-lg-1
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Formas modificadas")
@@ -29,7 +28,6 @@
             figure
               img(src='@/assets/curso/tema1/img04.svg' style="width: 250px").m-auto
           .col-lg-6
-            h4 Formas modificadas
             p.mb-0 Estas formas se pueden deformar y ajustar su apariencia según el objetivo que se pretenda o lo que se quiera transmitir a través de su diseño.
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Objetos")
         .row.align-items-center.justify-content-center.py-4
@@ -37,7 +35,6 @@
             figure
               img(src='@/assets/curso/tema1/img05.svg' style="width: 250px").m-auto
           .col-lg-6
-            h4 Objetos
             p.mb-0 Se puede observar cómo con objetos básicos se pueden diseñar elementos figurativos que representan objetos cotidianos, como una casa, un árbol, un oso. Estos apenas son unos ejemplos básicos, pero  a partir de elementos tan sencillos se pueden realizar incluso obras de arte, como las realizadas por Picasso.
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Carros")
         .row.align-items-center.justify-content-center.py-4
@@ -45,7 +42,6 @@
             figure
               img(src='@/assets/curso/tema1/img06.svg' style="width: 250px").m-auto
           .col-lg-6
-            h4 Carros
             p.mb-0 Se puede observar que con cuadrados, triángulos y círculos se puede armar un carro como si fuera un rompecabezas, posterior a ello se eliminan las líneas internas, integrando las formas básicas, lo que genera una figura de un carro, o también  un árbol complejo puede comenzar como una combinación de esferas y cilindros simples.
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Cabeza")
         .row.align-items-center.justify-content-center.py-4
@@ -53,7 +49,6 @@
             figure
               img(src='@/assets/curso/tema1/img02.svg' style="width: 250px").m-auto
           .col-lg-6
-            h4 Cabeza
             p Una cabeza humana a menudo se conceptualiza como una combinación de formas de esfera y cubo.
     .row(data-aos="fade-left")
       .col-lg-6.mb-4.mb-lg-0

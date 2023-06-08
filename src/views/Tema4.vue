@@ -62,8 +62,7 @@
       .col-lg-10 
         p.ps-0 Representación de elementos de modelado 3D.
     TabsA.color-acento-contenido(data-aos="fade-left")
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Personajes")   
-        h4 Personajes    
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="Personajes")     
         .row.justify-content-center
           .col-8.col-lg-5
             ImagenInfografica.color-secundario.mb-5
@@ -83,17 +82,14 @@
           .col-lg-5.d-flex.align-items-center
             p Para el modelado se emplean varias técnicas, en este caso se mencionarán las que pueden utilizarse en el #[i software] Blender. Para ello, se debe tener en cuenta la navegación en el #[i software] y el conocer ciertas acciones que se harán con el mouse en combinación con las teclas.
       .tarjeta.color-acento-contenido--borde.p-4(titulo="<em>Box modeling</em>")
-        h4 <i>Box modeling</i>
         p.mb-4 Es la técnica más utilizada, se parte de una primitiva o malla preestablecida, como podría ser una esfera, un plano, un cubo, un cono, etc.  Las cuales vienen integradas en Blender, para lo cual una vez teniéndolas en el escenario se le agregaran polígonos, extruyendo, biselando, escalando caras, vértices y bordes.
         figure
             img(src='@/assets/curso/tema4/img05.png', alt='Texto que describa la imagen') 
       .tarjeta.color-acento-contenido--borde.p-4(titulo="<em>Sculpting</em>")
-        h4 <i>Sculpting</i>
         p.mb-5 En este tipo de modelado se parte de un elemento del propio #[i software], y en este caso el modelado se desarrolla como un esculpido en la vida real con masilla, es decir, aplicando presión, puliendo, cortando, suavizando. Con él se pueden conseguir resultados visuales muy detallados, los cuales funcionan para mostrar un tipo de estilo, pero no para animar, puesto que la cantidad de polígonos es demasiada para que cualquier hardware la soporte. 
         figure
           img(src='@/assets/curso/tema4/img06.png', alt='Texto que describa la imagen')
       .tarjeta.color-acento-contenido--borde.p-4(titulo="<em>Nurbs</em>")
-        h4 <i>Nurbs</i>
         p.mb-5 Partiendo de líneas se pueden generar superficies que den un aspecto muy orgánico, como por ejemplo, terrenos irregulares de la naturaleza. Luego, esa curva se puede convertir en malla.
         .row.justify-content-center
           .col-lg-8
@@ -257,7 +253,7 @@ export default {
       {
         titulo: 'Edificaciones',
         texto:
-          'Como también se puede jugar con <em>loop cut</em> para crear edificios rápidos, y luego agregarles <em>array</em> para generar una manzana de edificaciones.',
+          'Como también se puede jugar con <em>Loop Cut</em> para crear edificios rápidos, y luego agregarles <em>Array</em> para generar una manzana de edificaciones.',
         imagen: require('@/assets/curso/tema4/img28.png'),
       },
       {
