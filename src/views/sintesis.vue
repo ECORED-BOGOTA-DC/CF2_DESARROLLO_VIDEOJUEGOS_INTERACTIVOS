@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-5 Es necesario reconocer y manejar los principios básicos del diseño, comprender la composición de los elementos de un personaje y su gestualidad, saber integrarlos en un software y manejar las técnicas de modelado, entre otras múltiples herramientas si se quiere crear productos para el maravilloso mundo de los videojuegos. Por esta razón es importante que apropie debidamente los temas vistos en este componente formativo y que se encuentras esquematizados a continuación.
+    p.mb-5 Es necesario reconocer y manejar los principios básicos del diseño, comprender la composición de los elementos de un personaje y su gestualidad, saber integrarlos en un software y manejar las técnicas de modelado, entre otras múltiples herramientas si se quiere crear productos para el maravilloso mundo de los videojuegos. Por esta razón es importante que apropie debidamente los temas vistos en este componente formativo y que se encuentran esquematizados a continuación.
     .row.justify-content-center
       .col-lg-10.mb-5
         figure

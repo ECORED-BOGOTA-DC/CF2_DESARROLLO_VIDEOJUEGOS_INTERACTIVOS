@@ -194,7 +194,7 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Tres cuertos',
+      termino: 'Tres cuartos',
       significado:
         'Es la vista en la que se observa un elemento, por ejemplo, un rostro visto de frente girando hacia su derecha o izquierda, por lo que se alcanza a notar más parte de un lado que del otro.',
     },

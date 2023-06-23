@@ -61,7 +61,7 @@
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1  Formas primarias y temas emocionales
-    p(data-aos="fade-right") Las figuras evocan emociones que se asocian de forma intrínseca con las vivencias de las personas, por ejemplo, un elemento redondo como un oso, va a evidenciar ternura; a diferencia de un demonio, que va a tener elementos afilados y puede transmitir terror. Es así, que de forma general a las figuras se les asocia emociones, pero estas también pueden variar de acuerdo con las formas que se empleen. 
+    p(data-aos="fade-right") Las figuras, evocan emociones que se asocian de forma intrínseca con los que la persona ha vivido anteriormente, por ejemplo, un elemento redondo, como un oso, va a evidenciar ternura, a diferencia de un demonio, que va tener elementos afilados, puede transmitir terror.  Es así, que de forma general a las figuras se les asocia emociones, pero estas también pueden variar de acuerdo a las formas que empleen.
     p.mb-5(data-aos="fade-right") De la siguiente manera se asocia las formas básicas a las emociones:                  
     figure.mb-5(data-aos="fade-down")
       img(src='@/assets/curso/tema1/img08.png', alt='Texto que describa la imagen')
@@ -104,13 +104,13 @@
                 figure(style="position:relative; top:-30px")
                   img(src='@/assets/curso/tema1/img10.png')  
                 p Kirby se puede asociar con una personalidad tierna, inocente, activa y positiva, es decir, con características relacionadas con los temas emocionales del círculo.
-                p Referencia de la imágen: https://kirby.fandom.com /es/wiki/
+                p Referencia de la imágen: <a href='https://kirby.fandom.com/es/wiki/' target='_blank'>#[span.txt-c1 https://kirby.fandom.com/ es/wiki/]</a>
             .col-lg-6.d-flex.py-5
               div.px-4(style="background-color:#DDDCE9")
                 figure(style="position:relative; top:-30px")
                   img(src='@/assets/curso/tema1/img11.png')  
                 p Dark Mind está claramente relacionado con temas emocionales del triángulo como la agresividad, fuerza, tensión e inestabilidad.
-                p Referencia de la imágen: https://kirby.fandom.com /es/wiki/
+                p Referencia de la imágen: <a href='https://kirby.fandom.com/es/wiki/' target='_blank'>#[span.txt-c1 https://kirby.fandom.com/ es/wiki/]</a>
           p Con el diseño de Kirby y Dark Mind se observa que las emociones relacionadas a cada espectro de forma son de gran utilidad a la hora de diseñar y perfilar las características de un personaje, ya sean positivas, negativas o incluso neutras, brindándole una identidad única que lo diferencia de los demás, marcando el concepto visual de un objeto que puede aplicarse a todos los elementos del videojuego para conservar un mismo estilo.       
         .col-lg-1
       .row(titulo="Tamaño")
@@ -121,7 +121,8 @@
               figure
                 img(src='@/assets/curso/tema1/img12.svg')                  
             .col-lg-8.px-4
-              p El tamaño de los objetos es un elemento fundamental durante el proceso de diseño, tanto de personajes como del escenario. <br>Se puede observar cómo en la parte superior los personajes y los objetos son de tamaños similares, lo que no permite una jerarquización de los objetos compuestos. 
+              p El tamaño de los objetos es un elemento fundamental durante el proceso de diseño, tanto de personajes como del escenario.
+              p Se puede observar cómo en la parte superior los personajes y los objetos son de tamaños similares, lo que no permite una jerarquización de los objetos compuestos. 
               p.mb-0 En la parte inferior se observa que con los mismos objetos diseñados se pueden organizar de mejor forma los objetos, generando una composición agradable visualmente.         
         .col-lg-1  
       .row(titulo="Equilibrio visual")
@@ -143,7 +144,7 @@
             img(src='@/assets/curso/tema1/img09.png') 
         .col-lg-5.px-4
           p Al igual que los personajes individuales, los grandes grupos suelen diseñarse de manera similar, compartiendo cualidades estéticas para conservar el mismo estilo. Esto se hace especialmente en los juegos de estrategia como por ejemplo, en el juego #[i Lords Mobile], donde se le permite al jugador adaptar su ejército consistente con personajes homogéneos, es decir, de la misma clase o tipo, en formaciones circulares enfocadas principalmente a la defensa desde todos los flancos; cuadrada que se presenta como una formación densa y rígida; y formaciones tipo flecha o cuña más agresivas, orientadas a romper las líneas del frente enemigo.
-          p Referencia de la imágene: https://www.9apps.com/es/ android-games/Lords-Mobile/#gallery-1
+          p Referencia de la imágene: <a href='https://www.9apps.com/es/android-games/Lords-Mobile/#gallery-1' target='_blank'>#[span.txt-c1 https://www.9apps.com/es/android-games/Lords-Mobile/#gallery-1]</a>
         .col-lg-1
       .row(titulo="Conceptos de siluetas sencillas para personajes intrincados")
         .col-lg-1
@@ -181,7 +182,7 @@
           p.mb-0 Personajes de acción
         figure
           img(src='@/assets/curso/tema1/img19.png')
-          figcaption Tomado de: https://www.notodoanimacion.es/principios-del-diseno-de-personajes/
+          figcaption Tomado de: <a href='https://www.notodoanimacion.es/principios-del-diseno-de-personajes/' target='_blank'>#[span.txt-c1 https://www.notodoanimacion.es/principios-del-diseno-de-personajes/]</a>
       .col-lg-1
     p.mb-5(data-aos="fade-right") Para trabajar el diseño de personajes, a continuación, se conocerá la línea de acción en un personaje llamado Flynn.
     .row.justify-content-center.mb-5(data-aos="fade-right")
@@ -194,7 +195,7 @@
         .cajon.color-acento-contenido.p-4
           p Conozca sobre los diseños de personajes, su referencia y documentación para que un personaje funcione correctamente en el contexto de una historia.
     h2(data-aos="fade-left") Diseño de personajes
-    p.mb-4(data-aos="fade-right") Así como en las producciones en #[i live action] se acostumbra a realizar castings para seleccionar a los actores que mejor se adapten a los atributos físicos y psicológicos, desarrollados al momento de crear los personajes durante las etapas correspondientes al desarrollo de guion; en animación y videojuegos se lleva a cabo un proceso análogo denominado diseño de personajes, donde un equipo de artistas conceptuales se encargan de interpretar los personajes creados por los escritores para generar un casting que permita diseñar los atributos visuales que mejor se adapten a las características de cada uno.
+    p.mb-4(data-aos="fade-right") Así como en las producciones en #[i live action] se acostumbra a realizar #[i castings] para seleccionar a los actores que mejor se adapten a los atributos físicos y psicológicos, desarrollados al momento de crear los personajes durante las etapas correspondientes al desarrollo de guion; en animación y videojuegos se lleva a cabo un proceso análogo denominado diseño de personajes, donde un equipo de artistas conceptuales se encargan de interpretar los personajes creados por los escritores para generar un #[i casting] que permita diseñar los atributos visuales que mejor se adapten a las características de cada uno.
     p(data-aos="fade-right") Para realizar este proceso con éxito existe una serie de conocimientos indispensables y aspectos a tener en cuenta, los cuales serán descritos a continuación:
     TabsC.color-acento-contenido.mb-5(data-aos="fade-down")
       .py-3.py-md-4(titulo="Referencias y documentación")
@@ -266,7 +267,7 @@
               img(src='@/assets/curso/tema1/img20.png') 
           .col-lg-5
             p.mb-5 Según la RAE la anatomía es la ciencia que estudia la estructura y forma de los seres vivos y las relaciones entre las diversas partes que los constituyen. Aunque se trata de una ciencia derivada de la biología es muy útil en las artes plásticas y visuales pues uno de los conocimientos clave a la hora de diseñar personajes es la anatomía, independientemente de si se trata de un personaje de estilo realista o cartoon. Tener bases fuertes de anatomía ayuda a que la construcción física de los personajes sea creíble y por tanto, funcionen adecuadamente en el universo al que pertenecen.
-            p Una buena forma de estudiar el funcionamiento del cuerpo es mediante los atlas médicos de anatomía, ya que presentan un desglose detallado que va desde la estructura ósea que soporta el cuerpo y muestra su relación con los músculos. No es necesario en principio memorizar el nombre de cada uno de los huesos y músculos que conforman el cuerpo, pero sí es sumamente importante saber dónde están ubicados, de dónde parten y a dónde llegan; debido que esto permite comprender su función en el movimiento y así mismo su importancia en la definición de siluetas y volúmenes del cuerpo.
+            p Una buena forma de estudiar el funcionamiento del cuerpo es mediante los atlas médicos de anatomía, ya que presentan un desglose detallado que va desde la estructura ósea que soporta el cuerpo y muestra su relación con los músculos. No es necesario en principio memorizar el nombre de cada uno de los huesos y músculos que conforman el cuerpo, pero sí es sumamente importante saber dónde están ubicados, de dónde parten y a dónde llegan; debido a que esto permite comprender su función en el movimiento y así mismo su importancia en la definición de siluetas y volúmenes del cuerpo.
           .col-lg-1
       .py-3.py-md-4(titulo="Proporciones del cuerpo humano")
         .row.mb-5
@@ -335,7 +336,7 @@
       .col-10.col-md-8.col-lg-8.d-flex.align-items-center.px-4.py-3(style="background-color:#F8F7FE")
         div
           h4 La cantidad de animaciones
-          p Para movimientos lo ideal es usar loops de animaciones, es decir, ciclos de repeticiones, por ejemplo, crear la animación de correr, caminar, entre otras, en ellas el primer cuadro de animación será el mismo que el último para poder así crear ese ciclo. También son necesarias las animaciones que conectan unas con otras, las cuales sirven para mostrar estados diferentes del personaje, como el saltar, el voltearse, el impulsarse, etc. 
+          p Para movimientos lo ideal es usar #[i loops] de animaciones, es decir, ciclos de repeticiones, por ejemplo, crear la animación de correr, caminar, entre otras, en ellas el primer cuadro de animación será el mismo que el último para poder así crear ese ciclo. También son necesarias las animaciones que conectan unas con otras, las cuales sirven para mostrar estados diferentes del personaje, como el saltar, el voltearse, el impulsarse, etc. 
     Separador
     #t_1_5.titulo-segundo.color-acento-contenido
       h2 1.5 Escenarios y <i>props</i>
@@ -354,12 +355,12 @@
           .col-10
             figure
               img(src='@/assets/curso/tema1/img32.png')
-              figcaption Referencia de la imágen: https://co.pinterest.com/ pin/331155378840196274/
+              figcaption Referencia de la imágen: <a href='https://co.pinterest.com/pin/331155378840196274/' target='_blank'>#[span.txt-c1 https://co.pinterest.com/pin/ 331155378840196274/]</a>
         .row.justify-content-center(titulo="<em>Props The legend of Zelda</em>")
           .col-10
             figure.mb-3
               img(src='@/assets/curso/tema1/img31.png')
-              figcaption Referencia de la imágen: https://co.pinterest.com/ pin/411375747217571766/
+              figcaption Referencia de la imágen: <a href='https://co.pinterest.com/pin/411375747217571766/' target='_blank'>#[span.txt-c1 https://co.pinterest.com/pin/ 411375747217571766/]</a>
             p <b><i>Props</i> videojuego</b> <i>The legend of Zelda: breath of the wild.</i> 
         .row.justify-content-center(titulo="Flynn y la espada")
           .col-10
@@ -406,7 +407,7 @@ export default {
       {
         titulo: 'Estructura del cuerpo humano',
         texto:
-          'La estructura del cuerpo humano se puede diseñar con 8 o 8.5 cabezas, que se usan principalmente en los dibujos o cuerpos de personajes, principalmente de superhéroes, que permiten tener una altura imponente. De igual manera, están las cabezas de 7 o  7.5, estas generalmente se usan en cuerpo de estatura promedio y las 4 cabezas se usan en los <i>cartoon</i> animados, son cuerpos más bajos, pero si se desea se puede usar las que se necesiten para el personaje.',
+          'La estructura del cuerpo humano se puede diseñar con 8 u 8.5 cabezas, que se usan principalmente en los dibujos o cuerpos de personajes, principalmente de superhéroes, que permiten tener una altura imponente. De igual manera, están las cabezas de 7 o  7.5, estas generalmente se usan en cuerpo de estatura promedio y las 4 cabezas se usan en los <i>cartoon</i> animados, son cuerpos más bajos, pero si se desea se puede usar las que se necesiten para el personaje.',
         imagen: require('@/assets/curso/tema1/img16.png'),
         leyendaImagen: 'Ahriman 8 cabezas',
       },

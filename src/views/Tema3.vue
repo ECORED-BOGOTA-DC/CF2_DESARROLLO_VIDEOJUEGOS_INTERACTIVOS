@@ -21,7 +21,7 @@
           .col-lg-5.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema3/img03.png')
-              figcaption.mt-3 Referencia de la imágen https://www.pexels.com/es-es/foto/ hoja-de-metal-con-gota-de-patron-5676470/
+              figcaption.mt-3 Referencia de la imágen: <a href='https://www.pexels.com/es-es/foto/hoja-de-metal-con-gota-de-patron-5676470/' target='_blank'>#[span.txt-c1 https://www.pexels.com/es-es/foto/ hoja-de-metal-con-gota-de-patron-5676470/]</a>
           .col-lg-6
             p Son objetos diseñados por el hombre, como una lata metálica, una baldosa, una llanta, una tela, un tejido, entre otros.
           .col-lg-1
@@ -30,7 +30,7 @@
           .col-lg-5.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema3/img02.png')
-              figcaption.mt-3 Referencias de las imágenes: Hoja: https://www.pexels.com/es-es/ foto/hoja-verde-2178028/ Tronco: https://polyhaven.com/ a/bark_brown_02
+              figcaption.mt-3 Referencias de las imágenes: Hoja: <a href='https://www.pexels.com/es-es/foto/hoja-verde-2178028/' target='_blank'>#[span.txt-c1 https://www.pexels.com/es-es/foto/ hoja-verde-2178028/]</a> Tronco: <a href='https://polyhaven.com/a/bark_brown_02' target='_blank'>#[span.txt-c1 https://polyhaven.com/a/ bark_brown_02]</a>
           .col-lg-6
             p Hacen parte de la misma naturaleza, como hojas, troncos, rocas, entre otras.
           .col-lg-1
@@ -39,7 +39,7 @@
           .col-lg-5.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema3/img04.png')
-              figcaption.mt-3 Referencia de la imágen Tronco: https://polyhaven.com/ a/bark_brown_02
+              figcaption.mt-3 Referencia de la imágen Tronco: <a href='https://polyhaven.com/a/bark_brown_02' target='_blank'>#[span.txt-c1 https://polyhaven.com/ a/bark_brown_02]</a>
           .col-lg-6
             p Tienen elementos que también se repiten de manera constante, pero tienen variación en sus formas. 
           .col-lg-1
@@ -48,7 +48,7 @@
           .col-lg-5.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema3/img05.png')
-              figcaption.mt-3 Referencia de la imágen https://dl.polyhaven.com/file/ ph-assets/Textures/jpg/1k/ blue_floor_tiles_01/blue_floor _tiles_01_diff_1k.jpg
+              figcaption.mt-3 Referencia de la imágen: <a href='https://dl.polyhaven.com/file/ph-assets/Textures/jpg/1k/blue_floor_tiles_01/blue_floor_tiles_01_diff_1k.jpg' target='_blank'>#[span.txt-c1 https://dl.polyhaven.com/file/ ph-assets/Textures/jpg/1k/ blue_floor_tiles_01/blue_floor _tiles_01_diff_1k.jpg]</a>
           .col-lg-6
             p Las texturas tienen patrones geométricos que se repiten constantemente con formas básicas.
           .col-lg-1
@@ -57,7 +57,7 @@
           .col-lg-5.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema3/img06.png')
-              figcaption.mt-3 Referencia de la imágen https://polyhaven.com/a/ side_table_01
+              figcaption.mt-3 Referencia de la imágen: <a href='https://polyhaven.com/a/side_table_01' target='_blank'>#[span.txt-c1 https://polyhaven.com/a/ side_table_01]</a>
           .col-lg-6
             p.mb-4 Se pueden capturar a través de una cámara fotográfica, un escáner, o recrearlos en papel a través de pintura u otros elementos, que posteriormente pueden ser capturados para ser digitalizados. Otra forma es una representación virtual del mundo real, realizada a través de #[i software] 2D o 3D, en la que se simulan formas geométricas, orgánicas, naturales y artificiales, con la finalidad de aplicar estas texturas en diferentes elementos, como personajes, escenarios, props, entre otros, dotándolos de mayor credibilidad y acercamiento al mundo real. 
             p Estas texturas también facilitan los acabados de los objetos, ya que estas imágenes pueden repetirse infinitamente, por ejemplo, si se le quiere dar textura de tela (jean) a un pantalón, con un patrón repetitivo o una textura tipo madera se puede lograr el efecto, gracias a estas texturas.
