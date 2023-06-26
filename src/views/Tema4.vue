@@ -56,8 +56,10 @@
             p.mb-4 Son las líneas que conectan los puntos del polígono, por ende, las aristas, son las que afectan visualmente la definición de los bordes del polígono, dándoles dureza o suavidad.
             h4 Cara
             p.mb-4Son las superficies resultantes de la unión de como mínimo 3 vértices y aristas, se podrían denominar en los que se componen de 3 puntos, que son polígonos de forma triangular, que se usan en videojuegos, para hacer referencia a los polígonos de 4 puntos, usados en animación 3D, y los de 5 o más puntos llamados #[i n-gon].
-    figure.mb-3(data-aos="fade-right")
-      img(src='@/assets/curso/tema4/img34.svg', alt='Texto que describa la imagen')
+    .row.justify-content-center
+      .col-lg-10
+        figure.mb-3(data-aos="fade-right")
+          img(src='@/assets/curso/tema4/img34.png' alt='Texto que describa la imagen')
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10 
         p.ps-0 Representación de elementos de modelado 3D.
