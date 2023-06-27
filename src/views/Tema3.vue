@@ -133,7 +133,7 @@
           td.text-center(colspan=3) Falta de humor y sofisticación, suciedad, tristeza, conservadurismo.
     h2(data-aos="fade-right") Temperatura del color
     SlyderC.mb-5(:datos="datosSlyder")(data-aos="fade-down")
-    p.mb-5(data-aos="fade-right") Comparando las imágenes anteriores se puede percibir que cada una de ellas evoca emociones diferentes. ¿Por qué sucede esto?, la respuesta está en el uso de los colores. En la imagen de la derecha se destacan los colores azules, violetas y algunos tintes de verde que dan la sensación de que se trata de un mundo nocturno o frío; en contraste con la imagen de la izquierda en la que se destacan los colores amarillos, amarillos verdosos, naranjas, terrosos y ocres que brindan la ilusión de un mundo más cálido.
+    p.mb-5(data-aos="fade-right") Comparando las imágenes anteriores, percibimos que cada una de ellas evoca emociones diferentes. ¿Por qué sucede esto?, la respuesta está en el uso de los colores. En la imagen de la derecha se destacan los colores azules, violetas y algunos tintes de verde que nos dan la sensación de que se trata de un mundo nocturno o frío; en contraste con la imagen de la izquierda en la que se destacan los colores amarillos, amarillos verdosos, naranjas, terrosos y ocres que nos brindan la ilusión de un mundo más cálido.
     .bloque-texto-g.color-principal.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
       .t3_bloque2.bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img08.png')})`}"
